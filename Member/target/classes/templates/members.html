@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Registered Members</title>
+</head>
+<body style="background-image: url('https://chromethemer.com/wallpapers/chromebook-wallpapers/images/960/love-deadpool-chromebook-wallpaper.jpg'); background-size: cover; color: green;">
+<h1 style="color: green;">All Registered Members</h1>
+<table>
+    <tr>
+        <th style="color: blue;">ID</th>
+        <th style="color: red;">Name</th>
+        <th style="color: purple;">Email</th>
+    </tr>
+    <!-- Loop through and display all members -->
+    <th:block th:each="member : ${members}">
+        <tr>
+            <td th:text="${member.id}" style="color: blue;"></td>
+            <td th:text="${member.name}" style="color: red;"></td>
+            <td th:text="${member.email}" style="color: purple;"></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

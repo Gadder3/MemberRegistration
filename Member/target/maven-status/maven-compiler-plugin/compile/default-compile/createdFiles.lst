@@ -1,0 +1,5 @@
+com\example\member\service\MemberService.class
+com\example\member\repository\MemberRepository.class
+com\example\member\entity\Member.class
+com\example\member\contoller\MemberController.class
+com\example\member\MemberApplication.class
