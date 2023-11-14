@@ -1,5 +1,8 @@
 FROM openjdk:11-jre-slim
 
+ARG JAR_FILE=target/*.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "/app.jar"]
 # Create a directory to store your application
 RUN mkdir /app
 
