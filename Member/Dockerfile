@@ -12,5 +12,4 @@ WORKDIR /app
 COPY target/Member-0.0.1-SNAPSHOT.jar /app/app.jar
 
 ENTRYPOINT ["java", "-jar", "/app.jar"]
-# Specify the command to run your Spring Boot application
-CMD ["java", "-jar", "app.jar"]
+
