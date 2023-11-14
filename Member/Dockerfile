@@ -1,4 +1,4 @@
-FROM openjdk:22-jre-slim
+FROM amazoncorretto:17.0.7-alpine
 
 # Create a directory to store your application
 RUN mkdir /app
