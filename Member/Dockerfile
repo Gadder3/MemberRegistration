@@ -1,4 +1,4 @@
-FROM openjdk:17-jre-slim
+FROM openjdk:22-jre-slim
 
 # Create a directory to store your application
 RUN mkdir /app
