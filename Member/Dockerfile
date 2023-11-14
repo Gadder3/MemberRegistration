@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim
+FROM adoptopenjdk:17-jre-hotspot
 
 # Create a directory to store your application
 RUN mkdir /app
