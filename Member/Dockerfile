@@ -1,4 +1,4 @@
-FROM openjdk:17-jre-hotspot
+FROM openjdk:17-jre-slim
 
 
 # Copy your Spring Boot JAR file from the build context into the container
